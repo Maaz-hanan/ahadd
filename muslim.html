@@ -5,8 +5,62 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Muslim</title>
 </head>
+<style>
+        h1,h2{
+            text-align: center;
+        }
+        *{
+            background-color: #AFDDE5;
+        }
+        .boxes{
+            display: flex;
+            gap: 10px;
+            flex-direction: row;
+            justify-content: center;
+        }
+
+        .box{
+            
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 15%;
+            background-color: black;
+            height: 150px;
+            width: 150px;
+            color: white;
+            text-align: center; 
+        
+        }
+        .center{
+            display: flex;
+            justify-content: center;
+            padding-top: 50px;
+            height: 50px;
+            gap: 5px;
+            
+        }
+    </style>
 <body>
     <h1>ASSALAMUALAIKUM </h1>
-    <H2>WHAT WOULD YOU LIKE TO DO TODAY</H2>
+    <H2>WHAT WOULD YOU LIKE TO DO TODAY!!!</H2>
+    <div class="boxes">
+        <a href="./namaz.html">
+            <div class="box counter" > NAMAZ <BR>COUNTER</BR></div>
+        </a>
+        <a href="./hadith.html">
+            <div class="box hadith">SAHIH <BR>HADITH</BR></div>
+        </a>
+        <a href="./quran.html">
+            <div class="box quran">QURAN </div>
+        </a>
+        <a href="./tajweed.html">
+            <div class="box tajweed"> TAJWEED</div>
+        </a>
+    </div>
+    <div class="center">
+        <input type="text" name="search" id="search" placeholder="ask anything here">
+        <button class="enter">search</button>
+    </div>
 </body>
 </html>
