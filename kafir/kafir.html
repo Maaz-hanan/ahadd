@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Non-Muslim</title>
+</head>
+<style>
+    h1,h2{
+            text-align: center;
+        }
+        *{
+            background-color: #AFDDE5;
+        }
+        .boxes{
+            display: flex;
+            gap: 10px;
+            flex-direction: row;
+            justify-content: center;
+        }
+
+        .box{
+            
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 15%;
+            background-color: rgb(0, 0, 0);
+            height: 130px;
+            width: 130px;
+            color: white;
+            text-align: center; 
+
+            transition: background-color 0.3s ease, transform 0.3s ease;
+        
+        }
+        .box:hover{
+                background-color: rgb(131, 131, 131);
+                transform: scale(1.2);
+        }
+         .center{
+            display: flex;
+            justify-content: center;
+            padding-top: 50px;
+            height: 50px;
+            gap: 5px;
+
+        }
+        button{
+            width: 60px;
+            border-radius: 5px ;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+        }
+        .main{
+            display: flex;
+            justify-content: flex-start;
+        }
+        .main > h1 {
+            font-size: 40px;
+            margin-top: -5px;
+            
+        }
+        .horizontal-line{
+            margin-top: -20px;
+        }
+        .main > h1 > a{
+            text-decoration: none;
+            color: black;
+        }
+
+
+    </style>
+<body>
+    <div class="main"><h1><a href="../index.html">ahadd.in</a></h1> </div>
+        <hr class="horizontal-line">
+    <h1>ASSALAMUALAIKUM.(PEACE BE UPON YOU)</h1>
+    <h2>What are you looking for!!?</h2>
+    <div class="boxes">
+        <a href="../muslim/muslim.html">
+            <div class="box counter" > LEARN <BR>ISLAM</BR></div>
+        </a>
+        <a href="./hadith.html">
+            <div class="box hadith">MYTH & <BR>MISCONSEPTION</BR></div>
+        </a>
+        <a href="./quran.html">
+            <div class="box quran">LISTEN <BR>QURAN</BR> </div>
+        </a>
+        <a href="./tajweed.html">
+            <div class="box tajweed"> </div>
+        </a>
+        <a href="./stories.html">
+            <div class="box stories"> STORIES</div>
+        </a>
+        
+    </div>
+</body>
+</html>
